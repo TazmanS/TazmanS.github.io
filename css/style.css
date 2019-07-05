@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(135deg, rgb(55, 47, 136), rgb(77, 55, 207)) !important;
+}
+
+img{
+    max-width: 100%;
+}
+
+div{
+    font-size: 20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+
+section{
+    margin: 25px 0;
+    padding: 15px;
+    background: rgba(255,255,255, 0.9);
+    border-radius: 15px;
+}
+
+header{
+    margin-top: 10px;
+}
+
+header nav{
+    background: linear-gradient(90deg, rgb(0, 101, 195), rgb(0, 247, 255));
+    border-radius: 15px;
+}
+
+header nav a{
+    font-size: 24px;
+    color: #fff;
+    margin: 10px;
+    transition: all 0.3s;
+}
+
+header nav a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+header nav div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
