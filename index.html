@@ -1,16 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-   
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Shumilov Evgen</title>
+</head>
+<body>
+    <header class="container">
+        <nav class="row">
+            <div class="col-12">
+                <a href="#about">Author</a>
+                <a href="#stardb">StarDB</a>
+                <a href="#organizer">Organizer</a>    
+            </div>
+        </nav>
+    </header>
+    <section id="about" class="container">
+        <div class="row">
+            <h1 class="col-12">Shumilov Yevgen</h1>
+            <div id="myPhoto" class="col-10 offset-1 col-sm-4 offset-sm-0">
+                <img src="image/shumilov.jpg" alt="" />
+            </div>
+            <div id="myInformation" class="col-12 col-sm-8">
+                <p>Good day. My name is Yevgeny Shumilov. I am a beginner JavaScript Developer.</p>
+                <p>Contacts: 0637660135 E-mail: TazmanS123@gmail.com</p>
+                <p>Live: Nikolaev</p>
+                <p>Education:</p>
+                <p>Beetroot.academy training (advanced JavaScript + React course)</p>
+                <p>Video courses:</p>
+                <p>«Udemy» - Full Course on JavaScript (Ivan Petrichenko)</p>
+                <p>"Udemy" - React + Redux - Professional Development (Yuri Bura)</p>
+                <p>"WebForMySelf" - Library-ReactJS</p>
+                <p>"WebForMySelf" - Angular 4</p>
+                
+                <p>Professional skills - Knowledge: HTML, CSS, Flexbox, Bootstrap4, JavaScript, ReactJS, Angular2</p>
+
+                <p>GitHub repository: <a href="https://github.com/TazmanS" target="_blank">Click</a></p>
+            </div>    
+        </div>
+    </section>
+    <section id="stardb" class="container">
+        <div class="row">
+            <h3 class="col-12">StarDB(React)</h3>
+            <div class="row col-12">
+                <a href="/StarDB" class="col-12 col-lg-4">
+                    <img src="image/stardb.png" alt="">    
+                </a>
+                <div class="col-12 col-lg-8">
+                    <p>The application is written using the React library.</p>
+                    <p>Used additional technologies: React-Router, React-Redux, Redux-Thunk</p>
+                    <p>Data take from the API</p>
+                    <a href="https://github.com/TazmanS/StarDB">GitHub Link</a>
+                </div>
+            </div>
+            <a href="#"></a>    
+        </div>
+    </section>
+    <section id="organizer" class="container">
+        <div class="row">
+            <h3 class="col-12">Organizer(Angular2+)</h3>
+            <div class="row col-12">
+                <a href="/organizer" class="col-12 col-lg-4">
+                    <img src="image/organizer.png" alt="">
+                </a>
+                <div class="col-12 col-lg-8">
+                    <p>The application is written using the framework Angular2+</p>
+                    <p>The data entered by the user is stored on the https://firebase.google.com server.</p>
+                    <a href="https://github.com/TazmanS/organizer">GitHub Link</a>
+                </div>   
+            </div>
+            <a href="#"></a>    
+        </div>
+    </section>
+</body>
 </html>
