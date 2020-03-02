@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
 
 body{
     background: linear-gradient(135deg, rgb(55, 47, 136), rgb(77, 55, 207)) !important;
+    padding-bottom: 100px;
 }
 
 img{
@@ -52,5 +54,7 @@ header nav div{
     flex-direction: row;
     justify-content: center;
 }
+
+
 
 
